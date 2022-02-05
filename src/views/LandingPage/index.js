@@ -2,6 +2,7 @@ import * as React from 'react';
 import { 
     Grid,
     Typography,
+    Button
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -74,19 +75,10 @@ const LandingPage = () => {
                 </Grid>
             </Grid>
             <Grid container spacing={2} style={{ paddingTop: '50px' }}>
-                <Grid item xs={12} md={12} lg={12} xl={12} style={{ padding: '10px 40px' }}>
-                    <Typography style={{
-                            color: 'white',
-                            fontFamily: 'Abel',
-                            fontStyle: 'normal',
-                            fontWeight: 'normal',
-                            fontSize: '18px',
-                            textAlign: 'right',
-                            lineHeight: '118%'
-                        }}
-                    >
-                        Slide for more <img src={arrowNext} style={{ width: '20px', marginBottom: '-5px', marginLeft: '5%' }} alt=''/>
-                    </Typography>
+                <Grid item xs={12} md={12} lg={12} xl={12} style={{ padding: '10px 40px', textAlign: 'right' }}>
+                    <Button id='sliderBtn' style={{ color: 'white', padding: '0px 5px', textTransform: 'capitalize', fontFamily: 'Abel', fontStyle: 'normal', fontSize: '18px' }}>
+                        Slide for more <img src={arrowNext} style={{ width: '20px', marginLeft: '50px' }} alt=''/>
+                    </Button>
                 </Grid>
                 <Grid item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
                     <img className='sliderImg' src={img1} style={{ width: '100%' }} alt=''/>

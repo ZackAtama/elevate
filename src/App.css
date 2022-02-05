@@ -40,6 +40,10 @@ body {
   }
 }
 
+#sliderBtn:hover {
+  background-color: #efaa1409;
+}
+
 .sliderImg {
   cursor: pointer;
 }
