@@ -1,4 +1,5 @@
-# Elevate
+[<img src='https://github.com/ZackAtama/elevate/blob/dev/src/assets/Saly-sm.png' alt='Saly from Elevate' height='100' align="right"> <h1>Elevate</h1>](https://elevate-web.netlify.app/)
+
 This is an assignment for a role as Frontend Developer for Loft Inc.
 - [Landing Page](https://elevate-web.netlify.app/)
 
