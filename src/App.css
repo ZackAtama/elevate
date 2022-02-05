@@ -39,3 +39,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.sliderImg {
+  cursor: pointer;
+}
+
+.sliderImg:hover {
+  opacity: 0.5;
+}
