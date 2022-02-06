@@ -40,7 +40,12 @@ body {
   }
 }
 
+#sliderBtn {
+  color: white;  
+}
+
 #sliderBtn:hover {
+  color: #efaa14;
   background-color: #efaa1409;
 }
 

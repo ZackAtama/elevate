@@ -1,10 +1,11 @@
-import * as React from 'react';
+import * as React from 'react'
 import { 
     Grid,
     Typography,
-    Button
-} from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+    Button,
+    IconButton
+} from '@mui/material'
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
 
 import sally from '../../assets/Saly-11.png'
 import img1 from '../../assets/Rectangle 6.png'
@@ -19,9 +20,15 @@ const LandingPage = () => {
     return (
         <Grid container spacing={2} style={{ padding: '10px 10%', backgroundColor: '#1B1B1B' }}>
             <Grid item xs={12} style={{ padding: '20px 0px' }} align='right'>
-                <Typography style={{ color: '#ffffff', fontSize: '30px' }}>
-                    <MenuIcon/>
-                </Typography>
+                <IconButton
+                    id="sliderBtn"
+                    size="large"
+                    edge="start"
+                    aria-label="menu"
+
+                >
+                    <MenuRoundedIcon style={{ fontSize: '25px' }}/>
+            </IconButton>
             </Grid>
             <Grid container spacing={2} style={{ padding: '20px 0px' }}>
                 <Grid item xs={12} md={5} lg={5} xl={5}>
@@ -76,7 +83,7 @@ const LandingPage = () => {
             </Grid>
             <Grid container spacing={2} style={{ paddingTop: '50px' }}>
                 <Grid item xs={12} md={12} lg={12} xl={12} style={{ padding: '10px 40px', textAlign: 'right' }}>
-                    <Button id='sliderBtn' style={{ color: 'white', padding: '0px 5px', textTransform: 'capitalize', fontFamily: 'Abel', fontStyle: 'normal', fontSize: '18px' }}>
+                    <Button id='sliderBtn' style={{ padding: '0px 5px', textTransform: 'capitalize', fontFamily: 'Abel', fontStyle: 'normal', fontSize: '18px' }}>
                         Slide for more <img src={arrowNext} style={{ width: '20px', marginLeft: '50px' }} alt=''/>
                     </Button>
                 </Grid>
