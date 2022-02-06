@@ -31,7 +31,7 @@ const LandingPage = () => {
                 </IconButton>
             </Grid>
             <Grid container spacing={2} style={{ padding: '20px 0px' }}>
-                <Grid item xs={12} md={5} lg={5} xl={5}>
+                <Grid item xs={12} md={12} lg={5} xl={5}>
                     <Typography style={{
                             color: '#1B1B1B',
                             fontFamily: "'Abel', sans-serif",
@@ -56,9 +56,9 @@ const LandingPage = () => {
                         }}
                     ></Typography>
                 </Grid>
-                <Grid item xs={12} md={7} lg={7} xl={7}>
+                <Grid item xs={12} md={12} lg={7} xl={7}>
                     <Grid container>
-                        <Grid item xs={8} md={6} lg={6} xl={6} style={{ padding: '10px 14% 20px 0px' }}>
+                        <Grid item xs={8} md={6} lg={7} xl={5} style={{ padding: '10px 14% 20px 0px' }}>
                             <Typography style={{
                                     color: 'white',
                                     fontFamily: "'Abel', sans-serif",
@@ -75,7 +75,7 @@ const LandingPage = () => {
                                 insights by the elevate <span style={{ color: '#EFAB14' }}>family</span> & <span style={{ color: '#EFAB14' }}>Community</span>
                             </Typography>
                         </Grid>
-                        <Grid item xs={4} md={6} lg={6} xl={6} align='right'>
+                        <Grid item xs={4} md={6} lg={5} xl={7} align='right'>
                             <img src={sally} style={{ width: '100%' }} alt=''/>
                         </Grid>
                     </Grid>
