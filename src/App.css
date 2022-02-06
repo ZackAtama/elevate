@@ -49,10 +49,16 @@ body {
   background-color: #efaa1409;
 }
 
-.sliderImg {
-  cursor: pointer;
+.sliderCard {
+  color: white;
 }
 
-.sliderImg:hover {
+.sliderCard:hover {
+  cursor: pointer;
+  color: #efaa14;
+  opacity: 0.7;
+}
+
+.sliderCard:active {
   opacity: 0.5;
 }

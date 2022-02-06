@@ -87,10 +87,9 @@ const LandingPage = () => {
                         Slide for more <img src={arrowNext} style={{ width: '20px', marginLeft: '50px' }} alt=''/>
                     </Button>
                 </Grid>
-                <Grid item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
-                    <img className='sliderImg' src={img1} style={{ width: '100%' }} alt=''/>
+                <Grid className="sliderCard" item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
+                    <img src={img1} style={{ width: '100%' }} alt=''/>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
@@ -102,7 +101,6 @@ const LandingPage = () => {
                         <img src={mediumLogo} style={{ height: '20px', marginBottom: '-7px', padding: '0px 4px' }} alt=''/> elevateug
                     </Typography>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
@@ -114,10 +112,9 @@ const LandingPage = () => {
                         Drones in Marketing 101
                     </Typography>
                 </Grid>
-                <Grid item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
-                    <img className='sliderImg' src={img2} style={{ width: '100%' }} alt=''/>
+                <Grid className="sliderCard" item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
+                    <img src={img2} style={{ width: '100%' }} alt=''/>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
@@ -129,7 +126,6 @@ const LandingPage = () => {
                         <img src={instagramLogo} style={{ height: '20px', marginBottom: '-7px', padding: '0px 4px' }} alt=''/> elevateug
                     </Typography>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
@@ -141,10 +137,9 @@ const LandingPage = () => {
                         Artcov Juice Concept
                     </Typography>
                 </Grid>
-                <Grid item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
-                    <img className='sliderImg' src={img3} style={{ width: '100%' }} alt=''/>
+                <Grid className="sliderCard" item xs={12} md={4} lg={4} xl={4} style={{ padding: '20px 40px' }}>
+                    <img src={img3} style={{ width: '100%' }} alt=''/>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
@@ -156,7 +151,6 @@ const LandingPage = () => {
                         <img src={mediumLogo} style={{ height: '20px', marginBottom: '-7px', padding: '0px 4px' }} alt=''/> elevateug
                     </Typography>
                     <Typography style={{
-                            color: 'white',
                             fontFamily: 'Abel',
                             fontStyle: 'normal',
                             fontWeight: 'normal',
