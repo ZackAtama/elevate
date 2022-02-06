@@ -6,6 +6,7 @@ import {
     IconButton
 } from '@mui/material'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
+import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
 
 import sally from '../../assets/Saly-11.png'
 import img1 from '../../assets/Rectangle 6.png'
@@ -28,7 +29,7 @@ const LandingPage = () => {
 
                 >
                     <MenuRoundedIcon style={{ fontSize: '25px' }}/>
-            </IconButton>
+                </IconButton>
             </Grid>
             <Grid container spacing={2} style={{ padding: '20px 0px' }}>
                 <Grid item xs={12} md={5} lg={5} xl={5}>
@@ -170,18 +171,18 @@ const LandingPage = () => {
                 </Grid>
             </Grid>
             <Grid item xs={12} md={12} lg={12} xl={12} style={{ padding: '10px 40px' }}>
-                <Typography style={{
-                        color: 'white',
-                        fontFamily: 'Abel',
-                        fontStyle: 'normal',
-                        fontWeight: 'normal',
-                        fontSize: '18px',
-                        textAlign: 'center',
-                    }}
-                >
-                    Scroll to discover
+                <Typography style={{ padding: '0px 5px', color: 'white', textTransform: 'lowercase', fontFamily: 'Abel', fontStyle: 'normal', fontSize: '18px', textAlign: 'center' }}>
+                    scroll to discover
                 </Typography>
-                <img src={arrowDown} style={{ width: '20px', marginTop: '5px' }} alt=''/>
+                <IconButton
+                    id="sliderBtn"
+                    size="large"
+                    edge="start"
+                    aria-label="menu"
+
+                >
+                    <ArrowCircleDownRoundedIcon style={{ fontSize: '30px' }}/>
+                </IconButton>
             </Grid>
         </Grid>
     );
