@@ -15,7 +15,6 @@ import img3 from '../../assets/Rectangle 8.png'
 import arrowNext from '../../assets/arrow-next.png'
 import mediumLogo from '../../assets/medium-logo.png'
 import instagramLogo from '../../assets/instagram.png'
-import arrowDown from '../../assets/circle_down.png'
 
 const LandingPage = () => {
     return (
